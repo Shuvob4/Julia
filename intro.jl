@@ -177,3 +177,31 @@ println(my_arr)
 # it will remove the last element from the array
 pop!(fibonacci)
 println(fibonacci)
+
+# Multi Dimensional Array
+grocerry_list = [["Bread", "Butter", "Milk", "Coffee Beans"],
+                ["Rice", "Chicken", "Vegetables", "Spices"],
+                ["Apple", "Banana", "Orange"]]
+
+
+numbers = [[1, 2, 3],
+            [4, 5],
+            [6, 7, 8, 9],
+            [10]]
+
+# We use size() method to get the dimension of an array
+# Syntax: size(array_name)            
+size(numbers)
+
+# We can create multidimensional array using rand() method as well
+# By default the data type of rand() method is float64
+#=
+Syntax: rand() - generate numbers between 0 and 1
+        rand(type) - generate specific type random numbers and the type is numeric
+        rand(size) - generates an array of random numbers with dimensions specified by size. 
+                    The size argument can be an integer or a tuple of integers indicating the 
+                    size of each dimension of the array.
+        rand(rows,columns) - generate a 2D array of random numbers with a specified number of rows and columns.
+=#
+rand(4,3)
+rand(4,3,3)

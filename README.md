@@ -1,7 +1,7 @@
 # Julia
 This is a Julia Learning Reporsitoty. 
 Topics Covered:
-- Basics:
+- intro.ji
     - Variables
     - Data Structures
     - String Operation
