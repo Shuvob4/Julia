@@ -6,3 +6,13 @@ Topics Covered:
     - Data Structures
     - String Operation
     - Commenting
+- control_flow.ji
+    -Loop
+        - while loop
+        - for loop
+        - array comprehention
+        - array comprehention with loop
+    - Conditionals
+        - if-else
+        - tenary operator
+        - short-circuit evaluation
