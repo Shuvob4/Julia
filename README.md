@@ -7,8 +7,7 @@ Topics Covered:
     - String Operation
     - Commenting
 - control_flow.ji
-
-  -Loop
+    -Loop
         - while loop
         - for loop
         - array comprehention
