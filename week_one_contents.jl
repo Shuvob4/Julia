@@ -66,4 +66,16 @@ typeof('H') # returns Char
 # abstract type comes when
 # 1. some operations change the type of a v alue by promotion; abstract type help to guide this process
 # 2. functions are written to operate on types. If we write funcction to use an abstract type, it will work for all the types underneath that abstract type.
- 
+
+# Array
+# Syntax: Array{DataType}(values, number of elements or dimensions)
+# undef - means no values were given
+# will create 3 * 1 array
+Array{Int64}(undef, 3) 
+
+# Naming convention
+# User-defined variables should avoid capital letters
+# User-defined types and modules usually have initial capitals
+# Camel case is aslo reserve for the names of types and modules
+
+# functions
